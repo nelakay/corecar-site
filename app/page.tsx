@@ -34,20 +34,15 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Header />
       <Hero />
-      <div className="px-4 lg:px-30 max-w-380 mx-auto">
-        <Principles />
-        <Services />
-        <Features />
-        <Fleet />
-        <GlobalReach />
-      </div>
+      <Principles />
+      <Services />
+      <Features />
+      <Fleet />
+      <GlobalReach />
       <Testimonials />
-      <div className="px-4 lg:px-30 max-w-380 mx-auto">
-        {/* <Pricing /> */}
-        <FAQ />
-        <BlogPreview />
-        <CTA />
-      </div>
+      <FAQ />
+      <BlogPreview />
+      <CTA />
       <Footer />
     </main>
   )

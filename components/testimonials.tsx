@@ -77,7 +77,7 @@ export function Testimonials() {
   const secondRow = testimonials.slice(3, 6)
 
   return (
-    <section className="py-24 lg:py-32 overflow-hidden -mx-6 lg:-mx-12">
+    <section className="py-24 lg:py-32 overflow-hidden">
       <div className="w-full">
         <div className="text-center max-w-3xl mx-auto mb-16 px-6 lg:px-12">
           <motion.h2
